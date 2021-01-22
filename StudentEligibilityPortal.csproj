@@ -67,28 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bootstrap\css\bootstrap-grid.css" />
-    <Content Include="bootstrap\css\bootstrap-grid.min.css" />
-    <Content Include="bootstrap\css\bootstrap-grid.rtl.css" />
-    <Content Include="bootstrap\css\bootstrap-grid.rtl.min.css" />
-    <Content Include="bootstrap\css\bootstrap-reboot.css" />
-    <Content Include="bootstrap\css\bootstrap-reboot.min.css" />
-    <Content Include="bootstrap\css\bootstrap-reboot.rtl.css" />
-    <Content Include="bootstrap\css\bootstrap-reboot.rtl.min.css" />
-    <Content Include="bootstrap\css\bootstrap-utilities.css" />
-    <Content Include="bootstrap\css\bootstrap-utilities.min.css" />
-    <Content Include="bootstrap\css\bootstrap-utilities.rtl.css" />
-    <Content Include="bootstrap\css\bootstrap-utilities.rtl.min.css" />
-    <Content Include="bootstrap\css\bootstrap.css" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
-    <Content Include="bootstrap\css\bootstrap.rtl.css" />
-    <Content Include="bootstrap\css\bootstrap.rtl.min.css" />
-    <Content Include="bootstrap\js\bootstrap.bundle.js" />
-    <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
-    <Content Include="bootstrap\js\bootstrap.esm.js" />
-    <Content Include="bootstrap\js\bootstrap.esm.min.js" />
-    <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\jquery-3.5.1.slim.min.js" />
+    <Content Include="bootstrap\js\popper.min.js" />
     <Content Include="datatables\css\jquery.dataTables.min.css" />
     <Content Include="datatables\js\jquery.dataTables.min.js" />
     <Content Include="fontawesome\attribution.js" />
@@ -1739,7 +1721,9 @@
     <Content Include="fontawesome\webfonts\fa-brands-400.svg" />
     <Content Include="fontawesome\webfonts\fa-regular-400.svg" />
     <Content Include="fontawesome\webfonts\fa-solid-900.svg" />
+    <Content Include="images\logo.png" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -1750,30 +1734,15 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bootstrap\js\bootstrap.bundle.js.map" />
-    <Content Include="bootstrap\js\bootstrap.bundle.min.js.map" />
-    <Content Include="bootstrap\js\bootstrap.esm.js.map" />
-    <Content Include="bootstrap\js\bootstrap.esm.min.js.map" />
-    <Content Include="bootstrap\js\bootstrap.js.map" />
-    <Content Include="bootstrap\js\bootstrap.min.js.map" />
-    <Content Include="bootstrap\css\bootstrap-grid.css.map" />
-    <Content Include="bootstrap\css\bootstrap-grid.min.css.map" />
-    <Content Include="bootstrap\css\bootstrap-grid.rtl.css.map" />
-    <Content Include="bootstrap\css\bootstrap-grid.rtl.min.css.map" />
-    <Content Include="bootstrap\css\bootstrap-reboot.css.map" />
-    <Content Include="bootstrap\css\bootstrap-reboot.min.css.map" />
-    <Content Include="bootstrap\css\bootstrap-reboot.rtl.css.map" />
-    <Content Include="bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
-    <Content Include="bootstrap\css\bootstrap-utilities.css.map" />
-    <Content Include="bootstrap\css\bootstrap-utilities.min.css.map" />
-    <Content Include="bootstrap\css\bootstrap-utilities.rtl.css.map" />
-    <Content Include="bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
-    <Content Include="bootstrap\css\bootstrap.css.map" />
-    <Content Include="bootstrap\css\bootstrap.min.css.map" />
-    <Content Include="bootstrap\css\bootstrap.rtl.css.map" />
-    <Content Include="bootstrap\css\bootstrap.rtl.min.css.map" />
     <Content Include="fontawesome\less\brands.less" />
     <Content Include="fontawesome\less\fontawesome.less" />
     <Content Include="fontawesome\less\regular.less" />
