@@ -1730,26 +1730,10 @@
     <Content Include="fontawesome\webfonts\fa-solid-900.svg" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="images\home\activeicon.png" />
-    <Content Include="images\home\client1.png" />
-    <Content Include="images\home\client2.png" />
-    <Content Include="images\home\client3.png" />
-    <Content Include="images\home\client4.png" />
-    <Content Include="images\home\client5.png" />
-    <Content Include="images\home\client6.png" />
-    <Content Include="images\home\clients.png" />
-    <Content Include="images\home\cycle.png" />
-    <Content Include="images\home\email.png" />
     <Content Include="images\home\footer.png" />
-    <Content Include="images\home\icon1.png" />
-    <Content Include="images\home\icon2.png" />
-    <Content Include="images\home\icon3.png" />
     <Content Include="images\home\image1.png" />
     <Content Include="images\home\image2.png" />
     <Content Include="images\home\image3.png" />
-    <Content Include="images\home\profile1.png" />
-    <Content Include="images\home\profile2.png" />
-    <Content Include="images\home\responsive.png" />
     <Content Include="images\home\slider-bg.png" />
     <Content Include="images\home\slider\birds1.png" />
     <Content Include="images\home\slider\birds2.png" />
@@ -1757,14 +1741,11 @@
     <Content Include="images\home\slider\house.png" />
     <Content Include="images\home\slider\sun.png" />
     <Content Include="images\home\tour-bg.png" />
-    <Content Include="images\home\tour-icon1.png" />
     <Content Include="images\home\tour-icon2.png" />
     <Content Include="images\home\under.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\signin-image.jpg" />
     <Content Include="images\signup-image.jpg" />
-    <Content Include="js\audio.min.js" />
-    <Content Include="js\audiojs.swf" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\coundown-timer.js" />
     <Content Include="js\gmaps.js" />
@@ -1781,11 +1762,19 @@
     <Content Include="js\respond.min.js" />
     <Content Include="js\w.gif" />
     <Content Include="js\wow.min.js" />
+    <Content Include="LoginForm.aspx" />
     <Content Include="signupForm.aspx" />
     <Content Include="Web.config" />
     <Content Include="homePage.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LoginForm.aspx.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginForm.aspx.designer.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="signupForm.aspx.cs">
       <DependentUpon>signupForm.aspx</DependentUpon>
