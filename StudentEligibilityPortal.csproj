@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminUniversityManagement.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery-3.5.1.slim.min.js" />
@@ -1769,6 +1770,13 @@
     <Content Include="homePage.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminUniversityManagement.aspx.cs">
+      <DependentUpon>adminUniversityManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminUniversityManagement.aspx.designer.cs">
+      <DependentUpon>adminUniversityManagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.aspx.cs">
       <DependentUpon>LoginForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
