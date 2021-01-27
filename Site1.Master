@@ -51,7 +51,7 @@
                     <div class="collapse navbar-collapse"  id="navbarSupportedContent">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active"><a class="nav-link" href="homepage.aspx">Home</a></li>
-                            <li><a class="nav-link" href="#">About Us</a></li>
+                            <li><a class="nav-link" href="aboutUsPAge.aspx">About Us</a></li>
                             <li><asp:LinkButton class="nav-link" ID="universitiesPageLink" runat="server" OnClick="universitiesPageLink_Click">Universities</asp:LinkButton></li>
                             <li><asp:LinkButton class="nav-link" ID="loginPageLink" runat="server" OnClick="loginPageLink_Click">Login</asp:LinkButton></li>
                             <li><asp:LinkButton class="nav-link" ID="registerPageLink" runat="server" OnClick="registerPageLink_Click">Register</asp:LinkButton></li>
