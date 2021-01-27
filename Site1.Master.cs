@@ -16,7 +16,7 @@ namespace StudentEligibilityPortal
 
         protected void universitiesPageLink_Click(object sender, EventArgs e)
         {
-            Response.Redirect("adminUniversityManagement.aspx");
+            Response.Redirect("universitiesListPage.aspx");
         }
 
         protected void loginPageLink_Click(object sender, EventArgs e)

@@ -1765,6 +1765,7 @@
     <Content Include="js\wow.min.js" />
     <Content Include="LoginForm.aspx" />
     <Content Include="signupForm.aspx" />
+    <Content Include="universitiesListPage.aspx" />
     <Content Include="userProfile.aspx" />
     <Content Include="Web.config" />
     <Content Include="homePage.aspx" />
@@ -1805,6 +1806,13 @@
     </Compile>
     <Compile Include="homePage.aspx.designer.cs">
       <DependentUpon>homePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="universitiesListPage.aspx.cs">
+      <DependentUpon>universitiesListPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="universitiesListPage.aspx.designer.cs">
+      <DependentUpon>universitiesListPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="userProfile.aspx.cs">
       <DependentUpon>userProfile.aspx</DependentUpon>
