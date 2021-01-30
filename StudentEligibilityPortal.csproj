@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutUsPage.aspx" />
+    <Content Include="adminLoginForm.aspx" />
     <Content Include="adminUniversityManagement.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
@@ -1780,6 +1781,13 @@
     </Compile>
     <Compile Include="aboutUsPage.aspx.designer.cs">
       <DependentUpon>aboutUsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminLoginForm.aspx.cs">
+      <DependentUpon>adminLoginForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminLoginForm.aspx.designer.cs">
+      <DependentUpon>adminLoginForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminUniversityManagement.aspx.cs">
       <DependentUpon>adminUniversityManagement.aspx</DependentUpon>
