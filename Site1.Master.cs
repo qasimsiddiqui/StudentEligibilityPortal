@@ -15,29 +15,35 @@ namespace StudentEligibilityPortal
             {
                 if (string.IsNullOrEmpty((string)Session["role"]))
                 {
+                    universitiesPageLink.Visible = true;
                     loginPageLink.Visible = true;
                     registerPageLink.Visible = true;
 
                     helloLink.Visible = false;
                     logoutLink.Visible = false;
+                    adminPageLinks.Visible = false;
                 }
                 else if (Session["role"].Equals("user"))
                 {
+                    universitiesPageLink.Visible = true;
                     loginPageLink.Visible = false;
                     registerPageLink.Visible = false;
 
                     logoutLink.Visible = true;
+                    adminPageLinks.Visible = false;
                     helloLink.Visible = true;
                     helloLink.Text = "Hello, " + Session["username"].ToString();
                 }
                 else if(Session["role"].Equals("admin"))
                 {
+                    universitiesPageLink.Visible = false;
                     loginPageLink.Visible = false;
                     registerPageLink.Visible = false;
 
                     logoutLink.Visible = true;
                     helloLink.Visible = true;
                     helloLink.Text = "Hello, " + Session["username"].ToString();
+                    adminPageLinks.Visible = true;
                 }
             }
             catch (Exception ex)
@@ -67,11 +73,18 @@ namespace StudentEligibilityPortal
 
             loginPageLink.Visible = true;
             registerPageLink.Visible = true;
+            universitiesPageLink.Visible = true;
 
             helloLink.Visible = false;
             logoutLink.Visible = false;
-      
+            adminPageLinks.Visible = false;
+
             Response.Redirect("homePage.aspx");
+        }
+
+        protected void universitiesManagementLink_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("adminUniversityManagement.aspx");
         }
     }
 }
