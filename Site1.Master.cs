@@ -70,7 +70,7 @@ namespace StudentEligibilityPortal
 
             helloLink.Visible = false;
             logoutLink.Visible = false;
-
+      
             Response.Redirect("homePage.aspx");
         }
     }
