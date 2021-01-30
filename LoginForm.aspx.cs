@@ -40,7 +40,11 @@ namespace StudentEligibilityPortal
                     while (dataReader.Read())
                     {
                         Response.Write("<script>alert('Login Successful, " + dataReader.GetValue(3).ToString() + "');</script>");
+                        Session["username"] = dataReader.GetValue(3).ToString();
+                        Session["fullname"] = dataReader.GetValue(1).ToString();
+                        Session["role"] = "user";
                     }
+                    Response.Redirect("homePage.aspx");
                 }
                 else
                 {

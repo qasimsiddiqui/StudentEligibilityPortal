@@ -60,6 +60,24 @@ namespace StudentEligibilityPortal
         protected global::System.Web.UI.WebControls.LinkButton registerPageLink;
 
         /// <summary>
+        /// logoutLink control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton logoutLink;
+
+        /// <summary>
+        /// helloLink control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton helloLink;
+
+        /// <summary>
         /// body control.
         /// </summary>
         /// <remarks>
