@@ -17,16 +17,16 @@
                 <div class="row contact-form">
                     <div class="col-md">
                         <div class="form-group">
-                            <asp:TextBox class="form-control" ID="TextBox2" runat="server" placeholder="Email"></asp:TextBox>
+                            <asp:TextBox class="form-control" ID="usernameTextBox" runat="server" placeholder="Username"></asp:TextBox>
                         </div>
                     </div>
                     <div class="col-md">
                         <div class="form-group">
-                            <asp:TextBox class="form-control" ID="TextBo3" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
+                            <asp:TextBox class="form-control" ID="passwordTextBox" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
                         </div>
                     </div>
                     <div class="col-md padding-left padding-right">
-                        <asp:Button class="btn btn-submit" ID="Button1" runat="server" Text="Login" />
+                        <asp:Button class="btn btn-submit" ID="loginButton" runat="server" Text="Login" OnClick="loginButton_Click" />
                     </div>
                 </div>
             </div>            
