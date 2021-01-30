@@ -55,6 +55,8 @@
                             <li><asp:LinkButton class="nav-link" ID="universitiesPageLink" runat="server" OnClick="universitiesPageLink_Click">Universities</asp:LinkButton></li>
                             <li><asp:LinkButton class="nav-link" ID="loginPageLink" runat="server" OnClick="loginPageLink_Click">Login</asp:LinkButton></li>
                             <li><asp:LinkButton class="nav-link" ID="registerPageLink" runat="server" OnClick="registerPageLink_Click">Register</asp:LinkButton></li>
+                            <li><asp:LinkButton class="nav-link" ID="logoutLink" runat="server" OnClick="logoutLink_Click">Logout</asp:LinkButton></li>
+                            <li><asp:LinkButton class="nav-link" ID="helloLink" runat="server">Hello, User</asp:LinkButton></li>
                         </ul>
                     </div>
                 </div>
