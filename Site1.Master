@@ -7,7 +7,7 @@
     <title></title>
 
 
-    <%-- datatables --%
+    <%-- datatables --%>
     <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
     <%-- fontawesome --%>
     <link href="fontawesome/css/all.css" rel="stylesheet" />
@@ -108,10 +108,10 @@
                         
                             <h2>Address</h2>
                             <address>
-                                Unit C2, St.Vincent's Trading Est., <br>
-                                Feeder Road, <br>
-                                Bristol, BS2 0UY <br>
-                                United Kingdom <br>
+                                Main University Road, <br>
+                                Karachi, <br>
+                                75270 Sindh, <br>
+                                Pakistan <br>
                             </address>
                         </div>
                     </div>
@@ -129,6 +129,7 @@
 
     </form>
 
+    <script src="datatables/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>

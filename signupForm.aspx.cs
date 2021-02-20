@@ -27,6 +27,10 @@ namespace StudentEligibilityPortal
             {
                 Response.Write("<script>alert('Username already taken!');</script>");
             }
+            else if (nameTextBox.Text.Equals("") || usernameTextBox.Text.Equals("") || passwordTextBox.Text.Equals("") || emailTextBox.Text.Equals(""))
+            {
+                Response.Write("<script>alert('One or more field empty!');</script>");
+            }
             else
             {
                 createNewUser();
@@ -79,14 +83,13 @@ namespace StudentEligibilityPortal
                     sqlConnection.Open();
                 }
                 // Command to be executed on database server
-                SqlCommand command = new SqlCommand("INSERT INTO tbl_Users(fullname, email, username, password, isAdmin) VALUES " +
-                    "(@fullname, @email, @username, @password, @isAdmin)", sqlConnection);
+                SqlCommand command = new SqlCommand("INSERT INTO tbl_Users(fullname, email, username, password) VALUES " +
+                    "(@fullname, @email, @username, @password)", sqlConnection);
 
                 command.Parameters.AddWithValue("@fullname", nameTextBox.Text.Trim());
                 command.Parameters.AddWithValue("@email", emailTextBox.Text.Trim());
                 command.Parameters.AddWithValue("@username", usernameTextBox.Text.Trim());
                 command.Parameters.AddWithValue("@password", passwordTextBox.Text.Trim());
-                command.Parameters.AddWithValue("@isAdmin", false);
 
                 command.ExecuteNonQuery();
 
